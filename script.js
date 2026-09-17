@@ -241,7 +241,7 @@ document.querySelector('#share-button')?.addEventListener('click', async () => {
 
 document.querySelector('#access-form')?.addEventListener('submit', (event) => {
   event.preventDefault();
-  if (document.querySelector('#access-pin').value === '2026') {
+  if (document.querySelector('#access-pin').value === '0509') {
     document.body.classList.remove('is-locked');
     sessionStorage.setItem('financial-goal-unlocked', 'true');
     document.querySelector('#goal-title')?.focus();
